@@ -7,5 +7,12 @@ title: "Quarto_test"
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ```{r}
-1 + 1
+f <- function() g()
+g <- function() h()
+h <- function() i()
+i <- function() stop("Error")
+```
+
+```{r}
+f()
 ```
